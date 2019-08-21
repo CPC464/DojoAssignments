@@ -3,38 +3,45 @@
     margin: 0px;
     padding: 0px;
    }
+
+/* NB: I decided to use some flexbox and to style it as if would have styled an actual website*/
+
    #wrapper{
-    width: 950px;
+    width: 900px;
     background-color: silver;
     margin: 0px auto;
     padding: 20px;
    }
    #header{
-    width: 940px;
+    width: 900px;
     min-height: 150px;
     background-color: green;
+   }
+   #mid-container{
+    display: flex;
+    justify-content: space-between;
    }
    #navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
     margin-top:20px;
-    display: inline-block;
+   
    }
    #main_content{
-    height: 400px;
-    min-width: 705px;
+    height: auto;
+    width: 680px;
     background-color: red;
-    display: inline-block;
+   
     vertical-align: top;
-    margin:20px;
+    margin-top:20px;
    }
    .subcontents{
     min-height: 200px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
-    margin: 10px 0 10px 10px;
+    margin: 10px 0 0 10px;
    }
    #advertisement{
     min-height: 120px;
