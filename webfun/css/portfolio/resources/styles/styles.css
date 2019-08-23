@@ -1,0 +1,129 @@
+/* NB: Temporary. Delete before finalizing */
+*{
+    /* outline: 1px solid red; */
+    font-family: arial, sans-serif;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling of site container */
+.site-container {
+    width: 980px;
+    margin: 0 auto;
+    background-image: radial-gradient(circle,  #705964, #1D0C13);
+    padding: 0 20px;
+}
+
+/* Styling of header bar */
+.header-bar{
+    width: 980px;
+    background-color: pink;
+    margin: 0 -20px;
+    padding: 0 20px;
+}
+
+.header-bar h1, .header-bar h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-bar h2 {
+    margin-left: 400px;
+}
+
+
+/* gradient behind main section */
+.main-section {
+    
+}
+
+/* Styling of top section */
+.top-section {
+    height: 300px;
+    /* border: 4px solid green; */
+    font-size: 0;
+}
+
+.top-section img{
+    border: 5px solid #C0C0C0;
+    width: 400px;
+    height: 260px;
+    margin: 20px 0;
+ 
+}
+
+/* Styling of the 'About...' box */
+
+.about-box{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 20px 20px;
+    width: 550px;
+    height: 270px;
+    background-color: #F0EAEF;
+    font-size:16px;
+}
+
+.topic-header{
+    background-image: linear-gradient(to bottom, #B1B1B5,#888593, #B1B1B5);
+    padding: 10px 10px;
+    color:white;
+    
+}
+
+
+
+.about-box p, .about-box a {
+    margin: 10px 10px;
+    color: black;
+}
+
+
+/* Styling of portfolio items */
+
+.pf-container {
+    background-image: linear-gradient(to bottom, #B1B1B5,#888593, #B1B1B5);
+    
+}
+
+.la-mode, .family-contacts, .fiveEleven  {
+    display: inline-block;
+}
+
+.pf-container img{
+    width: 310px;
+    display: block;
+    text-align: center;
+
+}
+
+.pf-container{
+    width: 310px;
+    margin-top: 20px;
+    display: inline-block;
+    /* font-size: 0; */
+    /* text-align: center; */
+}
+
+.pf-container p{
+    padding: 10px;
+}
+
+.family-contacts{
+    margin: 0 20px;
+}
+
+
+.technologies{
+    height: 150px;
+}
+
+
+.technologies img{
+    width: 50px;
+    display: inline-block
+    /* margin: 3 px; */
+}
+
