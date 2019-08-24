@@ -1,0 +1,219 @@
+/* General styling */
+
+ *{
+    
+     font-family: arial, sans-serif;
+ }
+
+.site-container {
+    width:970px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #235076; 
+}
+
+/* styling of top-bar */
+
+.top-bar{
+    height: 200px;
+    text-align: right;
+}
+
+.txt-size, .txt-size ul li, .logo-bar img, .logo-bar div{
+    display: inline-block;
+}
+
+.txt-size{
+    margin-bottom: 10px;
+    color: #D2B100;
+}
+
+.txt-size p{
+        color: white;
+}
+
+.txt-size ul *{
+    margin: 0 2px;
+}
+
+.logo-bar img{
+    width: 400px;
+    margin: 0 200px 0 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+.search-container{
+    height: 60px;
+    width: 240px;
+    background-color: #444444; 
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    text-align: left;
+}
+
+.search-container input{
+    height: 30px;
+    display: inline-block;
+   
+}
+
+.search-container .search-field{
+    margin: 15px 10px 0 25px;
+    width: 140px;
+    border-style: groove;
+}
+
+.button{
+    width: 40px;
+    height: 30px;
+    color: white;
+    background-color: #235076;
+    border: 2px solid #6C6C6C;
+    border-radius: 3px;
+    box-shadow: black 3px 3px;
+    border-style: ridge;
+
+}
+
+/* Styling of nav bar */
+.nav-bar {
+    width: 790px;
+    heigth: 60px;
+    margin-left:120px;
+    background-color: #477EAD;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+.nav-bar * {
+    display: inline-block;
+    color: white;  
+}
+
+.nav-bar li {
+    margin: 0 14px;
+    font-size: 24px;
+}
+
+/* Styling of main section */
+
+.main-section{
+    padding-left:120px;
+    padding-bottom: 30px;
+}
+
+.main-section, .left-col, .right-col {
+    min-height: 200px;
+}
+
+.left-col, .right-col {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-col{
+    width: 200px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.left-col li{
+    color:white;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom:10px;
+}
+
+.left-col li:before {
+     content: "\00BB \0020";
+     color: #F8D42F;
+}
+
+.right-col {
+    width: 600px;
+    padding-top: 40px;
+    color:white;
+    text-align: center;
+}
+
+.right-col ul{
+    padding-top: 40px; 
+}
+
+.right-col li:not(.last-bullet){
+    color: #F8D42F;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+
+/* styling of bottom section */
+
+.bottom-section{
+    padding-left: 120px;
+    padding-top: 10px;
+    background-color: white;
+    margin: 0 -20px;
+}
+
+.getting-started, .applications{
+    margin-right: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    width:350px;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 5px solid #ADCCE6;
+    text-align: center;
+}
+
+.applications *{
+    width:250px;
+}
+
+.bottom-section h3{
+    padding-bottom: 20px;
+}
+
+.getting-started ul li, .applications ul li {
+    list-style: square;
+}
+
+.bottom-section * span{
+    color: #76A9D6;
+}
+
+.bottom-section p, .bottom-section * li{
+   padding-bottom: 5px;
+}
+
+.bottom-section * ul{
+    padding-left: 20px;
+}
+ 
+.footer ul *{
+     display: inline-block;
+     padding: 10px 10px;
+     color: #87BAE5;
+}
+
+
+.footer ul, .footer p {
+    color: #87BAE5;
+     text-align: center;
+}
+
+
+
+
+
+
+
+
