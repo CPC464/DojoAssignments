@@ -1,0 +1,86 @@
+/* General styling */
+
+ *{
+     font-family: sans-serif;
+     outline: 1px solid pink;
+
+ }
+
+.site-container {
+    width:970px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightslategray; 
+}
+
+/* Styling of main section */
+.main-section {
+    height: 400px;
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+/* styling of bottom section */
+.bottom-section {
+    height: 200px;
+    text-align: center;
+}
+
+.footer {
+    height: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Usefull snippets */
+
+/* .left-col li:before {
+     content: "\00BB \0020";
+     color: #F8D42F;
+} */
+
+/* .right-col li:not(.last-bullet){
+    color: #F8D42F;
+    font-size: 20px;
+    margin-bottom:10px;
+} */
+
+/* .bottom-section * span{
+    color: #76A9D6;
+} */
+
+/* .bottom-section p, .bottom-section * li{
+   padding-bottom: 5px;
+} */
+
+/* .bottom-section * ul{
+    padding-left: 20px;
+} */
+ 
+/* .footer ul *{
+     display: inline-block;
+     padding: 10px 10px;
+     color: #87BAE5;
+} */
+
+
+
+
+
+
+
+
+
+
