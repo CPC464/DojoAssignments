@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+
+            <!-- Links to external stylesheets -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+            <!-- Links to own stylesheets -->
+            <link rel="stylesheet" href="resources/styles/reset.css">
+            <link rel="stylesheet" href="resources/styles/styles.css">
+
+            <!-- Title and favicon -->
+            <title>My weather</title>
+            <link rel="icon" href="resources/images/favicon.png">
+        </head>
+
+        <body>
+            <div class="container">
+                <div class="main-section">   
+                    <h1>Get the current temperature</h1>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" id="inputCity" aria-describedby="cityHelp" placeholder="Enter city">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                    <h2 class="output">
+                        The temperature in <span class="city"></span> is <span class="temperature"></span> degrees F
+                    </h2>
+
+                    <!-- <div class="form-group output">
+                    <label for="exampleFormControlSelect1">Select unit</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Fahrenheit</option>
+                      <option>Celcius</option>
+                      <option>Kelvin</option>
+                    </select>
+                    </div> -->
+                </div><!-- /.main-section -->
+
+
+               
+            </div> <!-- /.container -->
+
+            <!-- Links to js libraries -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+            <!-- Links to own javaScript -->
+            <script src="resources/scripts/index.js"></script>
+
+        </body>
+    </html>

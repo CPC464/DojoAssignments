@@ -1,0 +1,44 @@
+body *{
+    text-align: center;  
+}
+
+.container {
+    width: 970px;
+    min-height: 800px;
+    background-color: rgb(228, 227, 227);
+    margin: 0px auto;
+    padding: 50px 20px;
+}
+
+#slidedownimage, #slidetoggleimage{
+    display: none;
+    width: 200px;
+}
+
+.func{
+    margin-top: 50px;
+}
+
+.sliders{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.hide-show h2{
+    /* border: 3px solid darkgrey;
+    border-radius: .25rem; */
+    height: 60px;
+    color:  #007bff;
+    width: 100%;
+}
+
+.yellow{
+    color: #ffc107;
+}
+
+.val-function{
+    display: flex;
+    justify-content: space-around;
+}
+

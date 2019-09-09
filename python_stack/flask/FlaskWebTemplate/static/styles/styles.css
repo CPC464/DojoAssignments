@@ -1,0 +1,76 @@
+/* General styling */
+
+ div{
+     font-family:'roboto' sans-serif;
+     outline: 1px solid pink;
+}
+
+/* Styling of main section */
+.main-section {
+    height:600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+h1, h2{
+    color: red;
+    margin: 50px 0;
+}
+
+.btn{ 
+    margin: 50px;
+}
+
+#button1, #button2{
+    margin: 0 50px;
+}
+
+#button2{
+    display:none;
+    vertical-align: top;
+    margin-top:50px;
+}
+
+
+/* ******************************************************* */
+/* Usefull snippets */
+
+/* .left-col li:before {
+     content: "\00BB \0020";
+     color: #F8D42F;
+} */
+
+/* .right-col li:not(.last-bullet){
+    color: #F8D42F;
+    font-size: 20px;
+    margin-bottom:10px;
+} */
+
+/* .bottom-section * span{
+    color: #76A9D6;
+} */
+
+/* .bottom-section p, .bottom-section * li{
+   padding-bottom: 5px;
+} */
+
+/* .bottom-section * ul{
+    padding-left: 20px;
+} */
+ 
+/* .footer ul *{
+     display: inline-block;
+     padding: 10px 10px;
+     color: #87BAE5;
+} */
+
+
+
+
+
+
+
+
+
+

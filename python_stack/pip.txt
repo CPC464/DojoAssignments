@@ -1,0 +1,28 @@
+pip list:
+Returns the list of packages in the current environment. It also returns the installed version for each package
+
+pip3 list (when virtual env is deactivated)
+Much longer list because nothing was installed inside the venv yet
+
+pip install Django==1.11.9
+Installs Django in the venv (unclear why we are not installing the latest version)
+
+Running the install again returns a message saying that requirement is already satisfied
+
+pip freeze:
+Creates list of all installed packages and creates a text file with these 
+This freezes the dependencies, which is important before deployment
+https://websauna.org/docs/tutorials/deployment/freeze.html
+
+pip show Django:
+Lists info about Django
+
+pip uninstall Django
+Self explanatory...
+
+pip search Flask
+Lists all available Flask extensions
+
+
+
+
